@@ -1,0 +1,104 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background: rgb(46, 46, 46);
+	font-family: arial;
+}
+
+p {
+	color: white;
+	padding:10px;
+}
+
+a {
+	color: #222;
+}
+
+body header{
+	background:skyblue
+}
+
+header h1 {
+	text-align: center;
+	color: black;
+}
+
+header p {
+	text-align: center;
+	color: black;
+}
+
+nav {
+	text-align: center;
+}
+
+nav ul {
+	background: none;
+	padding: 5px;
+}
+
+nav ul li{
+	background: rgb(115, 201, 104);
+	padding: 5px;
+	display: inline-block;
+	border-radius: 5px;
+
+}
+
+nav ul li:hover {
+	background: #ddd;
+	
+}
+
+
+.grid {
+	background: #999;
+}
+
+.row {
+	padding: 0 15%;
+	background: #999;
+}
+
+.col  {
+	text-align: center;
+	width: 31%;
+	padding: 12% 0%;
+	margin: 1% 1%;
+	float: left;
+	background: grey;
+}
+
+.collage {
+	background: #999;
+	margin: 0px;
+}
+
+.left {
+	float: left;
+	padding: 50% 0%;
+	width: 50%;
+	background: blue;
+}
+
+.right {
+	float: left;
+	padding: 50% 0%;
+	width: 50%;
+	background: red;
+}
+
+.secondary {
+	background: darkgray;
+	color:white;
+}
+
+#special {
+	background: gold;
+	color: black;
+}
+
+footer {
+	text-align: right;
+	color: #777
+}
