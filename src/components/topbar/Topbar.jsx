@@ -7,11 +7,11 @@ export default function Topbar() {
     <div className='topbar'>
       <div className="wrapper">
         <div className="left">
-          <a href="#intro" className='logo'>genius.</a>
-          <div className="itemContainer">
+          <a href="#intro" className='logo'>something</a>
+          <a href="https://www.linkedin.com/in/javieraguilar13/" target="_blank" rel="noreferrer" className="itemContainer" >
             <Person/>
             <span>linkedin</span>
-          </div>
+          </a>
           <div className="itemContainer">
           <Mail/>
             <span>javieraguilar@gmail.com</span>
