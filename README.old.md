@@ -1,0 +1,1 @@
+This website will be what I use to teach myself html, css, and JS. The end goal is to have a website that serves as a hub for all kinds of information about me. Things like contact info, my resume, and projects should all be available here. 
