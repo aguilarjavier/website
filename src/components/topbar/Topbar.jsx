@@ -2,23 +2,28 @@ import React from 'react'
 import "./topbar.scss"
 import {Person, Mail} from "@material-ui/icons"
 
-export default function Topbar() {
+export default function Topbar({menuOpen, setMenuOpen}) {
   return (
-    <div className='topbar'>
+    <div className={'topbar ' + (menuOpen && 'active')}>
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className='logo'>something</a>
-          <a href="https://www.linkedin.com/in/javieraguilar13/" target="_blank" rel="noreferrer" className="itemContainer" >
-            <Person/>
-            <span>linkedin</span>
-          </a>
           <div className="itemContainer">
-          <Mail/>
+            <Person className='icon'/>
+            <span>linkedin</span>
+          </div>
+           
+          <div className="itemContainer">
+            <Mail/>
             <span>javieraguilar@gmail.com</span>
           </div>
         </div>
         <div className="right">
-          this is right
+          <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+            <span className='line1'></span>
+            <span className='line1'></span>
+            <span className='line1'></span>
+          </div>
         </div>
       </div>
     </div>
