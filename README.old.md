@@ -2,6 +2,8 @@ This website will be what I use to teach myself html, css, and JS. The end goal 
 
 
 Design/Component Inspo:
-[Hacker Effect](https://www.youtube.com/watch?v=W5oawMJaXbU) - https://www.youtube.com/watch?v=W5oawMJaXbU
-[Interactive Logo](https://www.youtube.com/watch?v=5a8NyGLlorI) - https://www.youtube.com/watch?v=5a8NyGLlorI
-[Parallax carousel](https://www.youtube.com/watch?v=PkADl0HubMY)https://www.youtube.com/watch?v=PkADl0HubMY - https://www.youtube.com/watch?v=PkADl0HubMY
+[Hacker Effect](https://www.youtube.com/watch?v=W5oawMJaXbU)
+
+[Interactive Logo](https://www.youtube.com/watch?v=5a8NyGLlorI) 
+
+[Parallax carousel](https://www.youtube.com/watch?v=PkADl0HubMY)
